@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Comprehensive Trade and Shipping Dashboard", layout="wide")
 
 # Load dataset (ensure to replace the file path with your actual data file path)
-data = pd.read_csv("C://Users//dhruv//OneDrive//Documents//python_project//PythonProject_input.csv")
+data = pd.read_csv("PythonProject_input.csv")
 
 # Set up the dashboard title and description
 st.title("Trade and Shipping Data Dashboard")
