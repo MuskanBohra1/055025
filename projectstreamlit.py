@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset (assuming the dataset is stored as CSV)
-data = pd.read_csv(r"C://Users//dhruv//OneDrive//Documents//python_project//PythonProject_input.csv")
+data = pd.read_csv("PythonProject_input.csv")
 
 # Convert 'Date' column to datetime format
 data['Date'] = pd.to_datetime(data['Date'], format='%d-%m-%Y')
