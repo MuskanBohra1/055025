@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 st.title("Trade and Shipping Data Dashboard")
 st.subheader("Visualizing Imports, Exports, and Shipping Methods")
 
-# Load the dataset
-data = pd.read_csv("C://Users//dhruv//OneDrive//Documents//python_project//PythonProject_input.csv")
+# Load dataset (assuming the dataset is stored as CSV)
+data = pd.read_csv("PythonProject_input.csv")
 
 # Pie Chart: Distribution of Imports and Exports
 st.header("Distribution of Imports and Exports")
