@@ -3,8 +3,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Load data (replace with your dataset path or loaded data)
-data = pd.read_csv("C://Users//dhruv//OneDrive//Documents//python_project//PythonProject_input.csv")
+# Load dataset (assuming the dataset is stored as CSV)
+data = pd.read_csv("PythonProject_input.csv")
 
 # Set up the dashboard layout
 st.title("Final Term Project Dashboard")
